@@ -43,6 +43,11 @@ app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/favorites', favoriteRoutes);
 
+// Root route
+app.get('/', (req, res) => {
+    res.send('API is running...');
+});
+
 // Error handler
 app.use(errorHandler);
 
