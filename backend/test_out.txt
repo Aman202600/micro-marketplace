@@ -1,0 +1,2 @@
+Script started
+Console log attempted
